@@ -5,8 +5,8 @@ theme: PaperMod
 
 params: 
   homeInfoParams:
-    Title: "Hello Stranger"
-    Content: Welcome to my blog. Here you will find a lot of cool information and cool stuff.
+    Title: "Hi I am John Bradshaw"
+    Content: Head of Cloud Hub for @wpp, building out cloud for WPP and our OpCo’s in a customer obsessed way!
   socialIcons:
     - name: facebook
       url: "https://facebook.com/"
@@ -22,7 +22,7 @@ params:
 
   ShowReadingTime: true
 
-  ShowShareButtons: true
+  # ShowShareButtons: true
 
   ShowPostNavLinks: true
 
@@ -30,9 +30,9 @@ params:
 
 menu: 
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
+    - identifier: about
+      name: About
+      url: /about/
       weight: 10
     - identifier: tags
       name: Tags
