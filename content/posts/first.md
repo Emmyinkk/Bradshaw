@@ -12,6 +12,7 @@ I’m delighted to share that we’ve just opened 16 new roles in WPP on our Clo
 ### What do we do?
 Cloud Hub exists to deliver cloud to the WPP group of companies. We do that by creating fantastic products, making cloud easier, keeping everyone safe, and building an extraordinary team.
 
+
 ### Where?
 To start with we want to build out a high performing and customer centric team that supports our platform.
 
