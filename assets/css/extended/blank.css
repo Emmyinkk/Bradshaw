@@ -2,10 +2,14 @@ input, textarea {
     background: rgb(211, 211, 211);
     color: black;
     width: 100%;
-    max-width: 400px;
     border-radius: 5px;
     padding: .5em;
     font-size: 14px;
+}
+@media only screen and (min-width: 765px) {
+    input, textarea {
+        max-width: 400px;
+    }
 }
 form button {
     background: black;
