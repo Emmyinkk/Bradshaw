@@ -4,6 +4,19 @@ title: Brandshaw.cloud
 theme: PaperMod
 googleAnalytics: G-1234567890
 
+
+disqusShortname: yourDisqusShortname
+
+params: 
+   fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
+
 params: 
   homeInfoParams:
     Title: "Hi I am John Bradshaw"
@@ -21,11 +34,16 @@ params:
   
   # ShowBreadCrumbs: true
 
-  # ShowReadingTime: true
+  ShowReadingTime: true
 
   ShowPostNavLinks: true
 
+  ShowShareButtons: true
 
+  comments: true
+
+
+ 
 
 menu: 
   main:
@@ -37,7 +55,13 @@ menu:
       name: Contact
       url: /contact/
       weight: 20
-    # - identifier: archives
-    #   name: Archives
-    #   url: /archives/
-    #   weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+outputs:
+  home:
+      - HTML
+      - RSS
+      - JSON # is necessary

@@ -6,7 +6,6 @@ cover:
     image: img/waterbottle.jpg
     alt: 'This is a post image'
     caption: 'This is a caption'
-tags: ["cloud"]
 ---
 
 Last year I was fortunate enough to join WPP as the Head of Cloud Hub, our team exists to deliver cloud to the WPP group of companies supporting their businesses and end clients. We create fantastic products for our customers and clients to use, we make the cloud more accessible, keep everyone safe, and we do that by building an extraordinary team.

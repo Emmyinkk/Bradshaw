@@ -54,13 +54,13 @@
     /* .split, .first-entry {
         flex: 1 1 0px;
     } */
-    .main > .split {
+    .flex_main > .split {
         width: 100%;
     }
 
     .first-entry {
         overflow: hidden;
-        width: 50%;
+        width: 60%;
     }
 }
 
