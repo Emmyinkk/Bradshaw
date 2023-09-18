@@ -5,7 +5,7 @@ theme: PaperMod
 googleAnalytics: G-1234567890
 
 
-# disqusShortname: yourDisqusShortname
+disqusShortname: yourDisqusShortname
 
 params: 
    fuseOpts:
