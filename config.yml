@@ -23,7 +23,7 @@ params:
     Content: Head of Cloud Hub for @wpp, building out cloud for WPP and our OpCo’s in a customer obsessed way!
   socialIcons:
     - name: linkedin
-      url: "https://facebook.com/"
+      url: "https://linkedin.com/"
     - name: twitter
       url: "https://twitter.com/"
 
@@ -55,10 +55,18 @@ menu:
       name: Contact
       url: /contact/
       weight: 20
+    - identifier: trend
+      name: Trends
+      url: /trend/
+      weight: 30
     - identifier: search
       name: Search
       url: /search/
-      weight: 30
+      weight: 50
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 40
 
 outputs:
   home:
